@@ -1,0 +1,169 @@
+body{
+  background-color: #EAEAEA;
+  margin: 0px;
+  font-family: 'Poiret One', cursive;
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%; }
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+h1{
+  font-size: 10em;
+  margin: 0px;
+  margin-top: 50px;
+  text-align: center;
+  color: #CC3A00;
+}
+  @media only screen and (max-width: 800px) {
+    h1 {
+      font-size: 5em;
+    }
+  }
+
+h2{
+  font-size: 4em;
+  color: #226358;
+  margin: 0px;
+  margin-top: 50px;
+  text-align: center;
+}
+@media only screen and (max-width: 800px) {
+  h2 {
+    font-size: 3em;
+  }
+}
+
+h3{
+  margin: 0px;
+  padding: 10px;
+  font-size: 18px;
+  color: #EAEAEA;
+}
+
+a h4{
+  max-width: 90%;
+  width: 110px;
+  align-self: center;
+  font-size: 1.5em;
+  color:#CC3A00;
+  text-align: center;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 3px;
+}
+a h4:hover {
+  background-color:#CC3A00;
+  border-color: white;
+  color: #EAEAEA;
+  transition: 0.2s;
+}
+
+p{
+  font-size: 24px;
+  padding: 15px;
+  margin-bottom: 100px;
+  text-align:justify;
+}
+.menu nav{
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+li:hover {
+  background-color: #111;
+}
+a {
+   display: block;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   padding-left: 30px;
+   padding-right: 10px;
+   margin-left: -10px;
+   margin-right: 10px;
+}
+.hero img{
+  width: 100%;
+}
+.music{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.music img{
+  height: 200px;
+  width: 200px;
+  padding: 3px;
+}
+
+
+.button{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.main{
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 800px) {
+  .main {
+    width: inherit;
+  }
+}
+footer  {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+footer nav ul li a{
+  margin: 0px;
+  padding: 0px;
+}
+
+footer ul li a img{
+  height: 20px;
+  width: 20px;
+  padding:5px;
+  margin-bottom: -5px;
+}
+
+footer nav ul li{
+    border-radius: 100%;
+    margin: 5px;
+}
